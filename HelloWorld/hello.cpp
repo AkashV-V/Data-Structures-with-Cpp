@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
 int main() {
-    cout << "Hello, C++ in VS Code!" << endl;
+    cout << "Hello, World!" << endl;
     return 0;
 }
