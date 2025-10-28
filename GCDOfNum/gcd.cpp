@@ -13,4 +13,4 @@ int main(){
     cout<<"GCD :"<<n1;
 
     return 0;
-}
+} 
