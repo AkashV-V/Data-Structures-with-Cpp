@@ -9,7 +9,7 @@ int main(){
     cin>>pos;
 
     for(int i=pos;i<5-1;i++){
-        arr[i]=arr[i-1];
+        arr[i]=arr[i+1];
     }
     size--;
     for(int i=0;i<size;i++){
