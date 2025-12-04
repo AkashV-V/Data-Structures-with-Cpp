@@ -9,15 +9,10 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    int min;
-    for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if(i>j){
-                min=j;
-            }
-            else{
-                min=i;
-            }
+    int min=arr[0];
+    for(int i=1;i<n;i++){
+        if(arr[i]<min){
+            min=arr[i];
         }
     }
     cout<<"The max number is :"<<min;

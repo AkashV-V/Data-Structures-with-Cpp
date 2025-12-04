@@ -14,6 +14,10 @@ int main(){
     for(int i=0;i<n;i++){
         if(arr[i]==key){
             cout<<"key found at "<<i<<" index";
+            break;
+        }
+        else{
+            cout<<"Key not found";
         }
     }
     return 0;
