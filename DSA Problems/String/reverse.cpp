@@ -11,6 +11,7 @@ int main(){
         left++;
         right--;
     }
+    
     cout<<name;
     return 0;
 }
